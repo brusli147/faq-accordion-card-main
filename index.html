@@ -6,41 +6,59 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-  <script src="main.js" async></script>
+  <script src="main.js" defer></script>
   <title>Frontend Mentor | FAQ Accordion Card</title>
 
 </head>
 <body>
-  <main class="main">
-    <div class="background-image">
-      <img src="images/bg-pattern-desktop.svg" alt="">
-    </div>
-    <div class="container">
-    <div class="hero-images">
-      <img src="images/illustration-box-desktop.svg" alt="">
-      <img src= "images/illustration-woman-online-desktop.svg" alt="">
+  <div class="container">
+    <div class="imgWoman">
+    <picture>
+      <source media="(max-width: 980px)" srcset="images/illustration-woman-online-mobile.svg">
+      <source media="(min-width: 980px)" srcset="images/illustration-woman-online-desktop.svg">
+      <img class="woman-img" src="images/illustration-woman-online-mobile.svg" alt="Woman standing in front of the computer">
+    </picture>
+    <div class="imgPattern">
+      <picture>
+        <source media="(max-width: 980px)" srcset="images/bg-pattern-mobile.svg">
+        <source media="(min-width: 980px)" srcset="images/bg-pattern-desktop.svg">
+        <img class="pattern-img" src="images/bg-pattern-mobile.svg" alt="Diamond pattern in the background">
+      </picture>
     </div>
     <div class="faq-content">
-  <h1>FAQ</h1>
-  <p><a href="#">How many team members can I invite?</a></p>
-  <span class="answer"> You can invite up to 2 additional users on the Free plan. There is no limit on 
+    <h1>FAQ</h1>
+<div class="question-answer">   
+    <div class="question"><p><a href="#">How many team members can I invite?</a></p><button class="btn
+"><img src="images/icon-arrow-down.svg" alt=""></button></div>
+  <span class="answer"> You can invite up to 2 additional users on the Free plan. <br>There is no limit on 
   team members for the Premium plan.</span>
+</div> 
 
- <p><a href="#">What is the maximum file upload size?</a></p> 
-  <span class="answer"> No more than 2GB. All files in your account must fit your allotted storage space. </span>
-
-  <p><a href="#">How do I reset my password?</a></p>
-  <span class="answer"> Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.</span>
-
-  <p><a href="#">Can I cancel my subscription?</a></p>
+  <div class="question-answer">
+ <div class="question"><p><a href="#">What is the maximum file upload size?</a></p><button class="btn"><img src="images/icon-arrow-down.svg" alt=""></button></div>
+  <span class="answer"> No more than 2GB. All files in your account must fit your <br>
+    allotted storage space. </span>
+  </div> 
+  
+  <div class="question-answer">
+  <div class="question"><p><a href="#">How do I reset my password?</a></p><button class="btn"><img src="images/icon-arrow-down.svg" alt=""></button></div>
+  <span class="answer"> Click “Forgot password” from the login page or “Change password”<br> from your profile page. A reset link will be emailed to you.</span>
+</div> 
+ 
+<div class="question-answer">
+  <div class="question"><p><a href="#">Can I cancel my subscription?</a></p><button class="btn"><img src="images/icon-arrow-down.svg" alt=""></button></div>
   <span class="answer">Yes! Send us a message and we’ll process your request no questions asked.</span> 
 
-  <p><a href="#">Do you provide additional support?</a></p>
-  <span class="answer"> Chat and email support is available 24/7. Phone lines are open during normal business hours.</span>
+</div> 
+  
+<div class="question-answer">
+  <div class="question"><p><a href="#">Do you provide additional support?</a></p><button class="btn"><img src="images/icon-arrow-down.svg" alt=""></button></div>
+  <span class="answer"> Chat and email support is available 24/7. <br>Phone lines are open during normal business hours.</span>
+
+</div> 
+
 </div>
-</div>
-</main>
+  </div>
   <footer>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
