@@ -26,13 +26,13 @@
     }
     
     a:visited {
-        font-weight: 700;
-        color:var(--very-dark-desaturated-blue);
+        font-weight: 900;
+        color: var(--very-dark-desaturated-blue);
         text-decoration: none;
     }
     
     a:focus {
-        color: var(--soft-red);
+        color: var(--very-dark-desaturated-blue);
         text-decoration: none;
     }
     
@@ -71,18 +71,26 @@
 
     .woman-img{
         position: relative;
-        top: 17rem;
+        top: 34rem;
         left: 2.5rem;
         max-width: 80%;
     }
 
     .pattern-img{
         position: relative;
-        top: 10rem;
+        top: 27rem;
         left: 2.5rem;
         max-width: 80%;
     
     }
+
+    .box-img{
+        position: relative;
+        z-index: 2;
+        bottom: 28rem;
+        right: 6.5rem;
+    }
+
 
     /* faq */
 
@@ -166,14 +174,6 @@
         bottom: 45rem;
     }
 
-    .woman-img{
-        position: relative;
-        top: 25rem;
-        left: -5rem;
-        max-width: 80%;
-        z-index: 2;
-    }
-
     .question{
         display: flex;
         justify-content: space-between;
@@ -191,11 +191,26 @@
 
     .pattern-img{
         position: relative;
-        top: -8rem;
+        top: 4rem;
         left: -5rem;
         max-width: 50%;
         z-index: 1;
     
+    }
+
+    .woman-img{
+        position: relative;
+        top: 40rem;
+        left: -5rem;
+        max-width: 80%;
+        z-index: 2;
+    }
+    
+    .box-img{
+        position: relative;
+        z-index: 2;
+        bottom: 17rem;
+        right: 6.5rem;
     }
 
     h1{
