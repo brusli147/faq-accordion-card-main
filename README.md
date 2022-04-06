@@ -29,9 +29,9 @@ Users should be able to:
 
 ### Screenshot
 
-![This is the desktop layout screenshot of the project](/images/Screenshot-desktop-design.PNG.)
+![This is the desktop layout screenshot of the project](/images/Screenshot-desktop-design.PNG)
 
-![This is the mobile layout screenshot of the project](/images/Screenshot-mobile-design.PNG.)
+![This is the mobile layout screenshot of the project](/images/Screenshot-mobile-design.PNG)
 
 ### Links
 
